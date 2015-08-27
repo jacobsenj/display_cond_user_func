@@ -14,7 +14,7 @@ namespace JensJacobsen\DisplayCondUserFunc\CMS\Backend\Form;
  * The TYPO3 project - inspiring people to share!
  */
 
-use TYPO3\CMS\Core\Utility\ExtensionManagementUtility;
+use TYPO3\CMS\Core\Utility\GeneralUtility;
 
 /**
  * Class ElementConditionMatcher implements the TCA 'displayCond' option.
@@ -69,6 +69,6 @@ class ElementConditionMatcher extends \TYPO3\CMS\Backend\Form\ElementConditionMa
 			'conditionParameters' => $conditionParameters
 		);
 
-		return (bool)\TYPO3\CMS\Core\Utility\GeneralUtility::callUserFunction($userFunction, $parameter, $this);
+		return (bool)GeneralUtility::callUserFunction($userFunction, $parameter, $this);
 	}
 }
