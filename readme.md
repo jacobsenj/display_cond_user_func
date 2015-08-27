@@ -1,6 +1,6 @@
 # DisplayCondUserFunc
 
-Backport for Feature: #62944 - UserFunc available as Display Condition (https://forge.typo3.org/issues/62944)
+TYPO3 6.2 LTS Backport for Feature: #62944 - UserFunc available as Display Condition (https://forge.typo3.org/issues/62944)
 
 ### Description
 Being able to use userFunc as displayCondition makes it possible to check on any imaginable condition or state. If any situation can not be evaluated with any of the existing checks the developer is free to add an own user function which provides a boolean result whether to show or hide the TCA field.
