@@ -1,0 +1,12 @@
+{
+    "name": "jensjacobsen/display-cond-user-func",
+    "type": "typo3-cms-extension",
+    "description": "A backport extension for TYPO3 6.2 - Backports Feature: #62944 - UserFunc available as Display Condition",
+    "homepage": "https://github.com/jacobsenj/display_cond_user_func",
+    "license": ["GPL-2.0+"],
+    "keywords": ["TYPO3 CMS", "displayCond userFunc"],
+    "support": {
+        "issues": "https://github.com/jacobsenj/display_cond_user_func/issues"
+    },
+    "version": "6.2.1"
+}
